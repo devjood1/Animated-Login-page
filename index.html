@@ -5,36 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animated Login</title>
+
+    <!--Firstly and always I link my stylesheet with the css file-->
     <link rel="stylesheet" href="css/style.css"
+
 </head>
 <body>
-    <!--so in this div I add a class so we can modify it in css-->
-    <div class="centre">
-        <!--in h1 I add the login text-->
-        <h1>Login</h1>
-            <!-- I used <form> to collect the user input so it can later on be send to a server later -->
-            <form method="post">
-                <!-- I add another div for the input to rest in  -->
-                <div class="txt_field">
-                    <!-- I used <input> and -->
-                    <input type="text" required>
-                    <span></span>
-                    <label>Username</label>
+
+    <div class="centre">                                           <!-- So in the first <div> tag, I added a class named centre so we can modify it in css later -->
+
+        <h1>Login</h1>                                          <!-- in h1 I add the login text -->
+
+            <form method="post">                                <!-- I used <form> to collect the user input -->
+                <div class="txt_field">                               <!-- I add another <div> tag for the <input> tag to rest in also i added a class attribute to adjust it in css later-->
+                    <input type="text" required>                <!-- I used the <input> tag so the user can have a field to write in and notice I used the required attribute so the form can't be submitted without writing anything in the input -->
+                    <span></span>                               <!-- I used span to make the input and the label to group these elements -->
+                    <label>Username</label>                     <!-- I used the <label> tag so I can add a caption to the input field -->
                 </div>
 
+                     <!-- I did the same as before except the difference is -->
+
                 <div class="txt_field">
-                    <input type="password" required>
+                    <input type="password" required>            <!-- I changed the <input> tag's type to password -->
                     <span></span>
                     <label>Password</label>
                 </div>
-                <div class="pass">Forget Password?</div>
-                <input type="submit" value="Login">
-                <div class="signup_link">
-                    Not a member? <a href="#">Sign up here!</a>
-                </div>
-            </form>
-    </div>
 
+                <div class="pass">Forget Password?</div>         <!--so here I added another <div> tag for the "forget password?"-->
+
+                <input type="submit" value="Login">             <!--so for the last <input> tag I added it so it can be the submit button for the form-->
+
+                <div class="signup_link">                               <!--the last <div> tag is for the signup link text and the referring link-->
+                 Not a member? <a href="#">Sign up here!</a>
+                </div>
+
+            </form>
+
+    </div>
 
 </body>
 </html>
