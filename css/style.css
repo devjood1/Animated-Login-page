@@ -1,3 +1,4 @@
+/*here I set the background gradient and the font and cliped the content by the overflow*/
 body{
     margin: 0;
     padding: 0;
@@ -7,6 +8,8 @@ body{
     overflow: hidden;
 }
 
+        /*so this is going to control pretty much everything on the form*/
+
 .centre {
     position: absolute;
     top: 50%;
@@ -15,10 +18,6 @@ body{
     width: 400px;
     background: whitesmoke;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
 }
 
 .centre h1{
@@ -56,10 +55,6 @@ form .txt_field{
     font-size: 16px;
     pointer-events: none;
     transition: .5s;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
 }
 
 .txt_field span::before{
@@ -71,10 +66,6 @@ form .txt_field{
     height: 2px;
     background: #455077;
     transition: .5s;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
 }
 
 .txt_field input:focus ~ label,
@@ -109,19 +100,11 @@ input[type="submit"]{
     font-weight: 700;
     cursor: pointer;
     outline: none;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
 }
 
 input[type="submit"]:hover{
     border-color: #455077;
     transition: .5s;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
 }
 
 .signup_link{
