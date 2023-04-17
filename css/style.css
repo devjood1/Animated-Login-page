@@ -1,3 +1,4 @@
+/*here I set the background gradient and the font and cliped the content using the overflow*/
 body{
     margin: 0;
     padding: 0;
@@ -6,6 +7,8 @@ body{
     height: 100vh;
     overflow: hidden;
 }
+
+        /*so this is going to control pretty much everything on the form*/
 
 .centre {
     position: absolute;
